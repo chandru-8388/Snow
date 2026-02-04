@@ -1,0 +1,18 @@
+{
+  "databaseChangeLog": [
+    {
+      "changeSet": {
+        "id": "snowflake-python-empty-string",
+        "author": "opsera",
+        "changes": [
+          {
+            "sqlFile": {
+              "path": "edw/corp_design_isc/functions/repro_empty_string.sql",
+              "relativeToChangelogFile": false
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
