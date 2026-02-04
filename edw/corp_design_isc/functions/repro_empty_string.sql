@@ -57,6 +57,4 @@ def run(dt):
 
     return shift_name, break_name
 $$;
-$
-$
 
