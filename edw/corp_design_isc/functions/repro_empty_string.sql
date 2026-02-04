@@ -1,6 +1,8 @@
 CREATE OR REPLACE FUNCTION OPSERA_TEST_DB.PUBLIC.repro_empty_string()
 RETURNS VARIANT
 LANGUAGE PYTHON
+RUNTIME_VERSION = 3.10
+HANDLER = 'run'
 AS
 $$
 def _find_shift_and_break(dt):
